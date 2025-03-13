@@ -1,0 +1,1792 @@
+{
+  "voteDoc": {
+    "traceId": "8dcfd645-69a9-438d-8081-aaaa14985cfe",
+    "action": {
+      "_id": "FL-20201103-0-0-10-10001",
+      "raceId": 0,
+      "statePostal": "FL",
+      "updateType": "cumulative",
+      "source": {
+        "id": "WebScrape",
+        "precinctsReporting": 9999999999999999,
+        "candidates": [
+          {
+            "id": 14574,
+            "vote": {
+              "parties": [
+                {
+                  "id": "Dem",
+                  "candidateId": 21369,
+                  "vote": {
+                    "total": 0
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "voteCheck": {
+    "type": "REQUIRE APPROVAL",
+    "alert": "The declared winner has lost the statew_ide lead to [leader]",
+    "description": "This update will take the lead from declared winner [winner]",
+    "heading": "Race-w_ide lead change!",
+    "instructions": "Verify vote tallies",
+    "enabled": true,
+    "hoverText": "The winner for this race has already been called. Accepting this vote report will change the winner not just for this reporting unit,\n but for the entire race. If this report is entered, please relay this lead change in the state chat-room",
+    "priority": 2,
+    "hashkey": 5,
+    "usage": {
+      "account": {
+        "name": "live",
+        "region": "us-west-2"
+      },
+      "purpose": "live"
+    },
+    "id": "TIPPING_POINT",
+    "checkStatus": {
+      "id": "TIPPING_POINT",
+      "status": "hardStop"
+    }
+  },
+  "docType": "VoteUpdate",
+  "ruDoc": {
+    "_id": "FL-20201103-0-0-10-10001",
+    "eventId": "FL-20201103",
+    "state": {
+      "name": "Florida",
+      "id": 10,
+      "postal": "FL",
+      "phase": "End of Tab"
+    },
+    "race": {
+      "id": 0,
+      "sequenceNumber": 594,
+      "name": "President-General",
+      "type": "General",
+      "order": 110,
+      "abbreviation": "Pres",
+      "typeCode": "G",
+      "precinctsTotal": 63,
+      "maxVotersInPrecinct": 6045,
+      "childTotal": 0,
+      "office": {
+        "id": "P",
+        "name": "President",
+        "abbrv": "Pres",
+        "description": ""
+      },
+      "vote": {
+        "expected": {
+          "sourceId": "Research",
+          "values": [
+            {
+              "id": "Research",
+              "actual": 195425,
+              "soft": 163782,
+              "max": 190433,
+              "mode": {
+                "absenteeTotal": {
+                  "actual": 160274,
+                  "max": 190433
+                }
+              }
+            }
+          ]
+        },
+        "past": {
+          "total": 128569,
+          "mode": {
+            "absenteeTotal": 0
+          }
+        },
+        "changelog": {
+          "created": {
+            "timestamp": "2021-12-15 18:12:53.565000",
+            "by": "System"
+          },
+          "updated": {
+            "timestamp": "2021-12-15 18:12:53.565000",
+            "by": "System"
+          }
+        }
+      },
+      "status": {
+        "status": "none",
+        "changelog": {
+          "created": {
+            "timestamp": "2021-12-15 18:12:53.565000",
+            "by": "System"
+          },
+          "updated": {
+            "timestamp": "2021-12-15 18:12:53.565000",
+            "by": "System"
+          }
+        }
+      }
+    },
+    "reportingUnit": {
+      "id": 10001,
+      "friendlyId": "FL-10001",
+      "name": "Alachua",
+      "type": "County",
+      "abbreviation": "Alachua",
+      "precinctsTotal": 63,
+      "proportionalPrecincts": false,
+      "childTotal": 0,
+      "pollClosingTime": "2020-11-04T00:00:00.000Z",
+      "pollOpenTime": "2020-11-03T12:00:56.000Z",
+      "level": 2,
+      "fipsCode": 12001,
+      "ballotsCastTotal": 0,
+      "regionInfo": [
+        {
+          "id": 10021,
+          "name": "North Florida",
+          "abbrv": "NorFla",
+          "type": "Geographical",
+          "precincts": 63
+        },
+        {
+          "id": 10029,
+          "name": "District 3",
+          "abbrv": "CD 3",
+          "type": "Congressional District",
+          "precincts": 63
+        }
+      ],
+      "geoStratum": {
+        "id": 1,
+        "order": 10,
+        "name": "North/Panhandle"
+      },
+      "polStratum": {
+        "id": 2,
+        "order": 20,
+        "name": "Mod Democrat"
+      },
+      "parent": {
+        "id": 10,
+        "key": "FL-20201103-0-0-10",
+        "name": "Florida",
+        "type": "State",
+        "level": 1
+      }
+    },
+    "raceDetail": {
+      "tabulated": false,
+      "uncontested": false,
+      "priority": 0,
+      "votesPerVoter": 1,
+      "numberOfWinners": 1,
+      "numRunoffCands": 0,
+      "turnover": 0,
+      "seat": {},
+      "incumbents": [
+        {
+          "id": 14574,
+          "npId": 8639,
+          "candidateId": 21369,
+          "party": "GOP",
+          "name": {
+            "last": "Trump",
+            "first": "Donald",
+            "middle": "",
+            "suffix": "    "
+          },
+          "active": true
+        }
+      ],
+      "delegates": [
+        {
+          "id": 0,
+          "candidateId": 0,
+          "delegatesWon": 0,
+          "changelog": {
+            "created": {
+              "timestamp": "2021-12-15 18:12:53.565000",
+              "by": "System"
+            },
+            "updated": {
+              "timestamp": "2021-12-15 18:12:53.565000",
+              "by": "System"
+            }
+          }
+        }
+      ],
+      "party": "",
+      "characteristics": {
+        "scope": [
+          "state",
+          "national"
+        ]
+      },
+      "changelog": {
+        "created": {
+          "timestamp": "2021-12-15 18:12:53.565000",
+          "by": "System"
+        },
+        "updated": {
+          "timestamp": "2021-12-15 18:12:53.565000",
+          "by": "System"
+        }
+      }
+    },
+     "reportingSource" : {
+        "precinctsReporting" : 8, 
+        "usingProportional" : false, 
+        "sourceIds" : {
+            "voteTotal" : "Stringer", 
+            "voteByMode" : "WebScrape", 
+            "totalBallotsCast" : "Stringer"
+        }
+     },
+    "sources": [
+      {
+        "id": "WebScrape",
+        "precinctsReporting": 63,
+        "candidates": [
+          {
+            "id": 14574,
+            "name": {
+              "last": "Trump",
+              "first": "Donald",
+              "middle": "",
+              "suffix": "    ",
+              "abbrv": "Trump"
+            },
+            "vote": {
+              "total": 50891,
+              "mode": {
+                "electionDayInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "earlyInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeMail": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "provisional": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeTotal": {
+                  "directInput": {
+                    "isNull": false,
+                    "value": 35881
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "advanceInPersonTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "advanceTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "inPersonTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                }
+              },
+              "parties": [
+                {
+                  "id": "GOP",
+                  "vote": {
+                    "total": 50891,
+                    "mode": {
+                      "electionDayInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "earlyInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeMail": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "provisional": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeTotal": {
+                        "directInput": {
+                          "isNull": false,
+                          "value": 35881
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "advanceInPersonTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "advanceTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "inPersonTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      }
+                    },
+                    "ballotOrder": 0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": 15350,
+            "name": {
+              "last": "Biden",
+              "first": "Joe",
+              "middle": "",
+              "suffix": "",
+              "abbrv": "Biden"
+            },
+            "vote": {
+              "total": 89527,
+              "mode": {
+                "electionDayInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "earlyInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeMail": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "provisional": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeTotal": {
+                  "directInput": {
+                    "isNull": false,
+                    "value": 77471
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "advanceInPersonTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "advanceTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "inPersonTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                }
+              },
+              "parties": [
+                {
+                  "id": "Dem",
+                  "vote": {
+                    "total": 89527,
+                    "mode": {
+                      "electionDayInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "earlyInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeMail": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "provisional": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeTotal": {
+                        "directInput": {
+                          "isNull": false,
+                          "value": 77471
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "advanceInPersonTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "advanceTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "inPersonTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      }
+                    },
+                    "ballotOrder": 0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": 15367,
+            "name": {
+              "last": "De La Fuente",
+              "first": "Roque",
+              "middle": "",
+              "suffix": "",
+              "abbrv": "DeLaFunt"
+            },
+            "vote": {
+              "total": 69,
+              "mode": {
+                "electionDayInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "earlyInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeMail": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "provisional": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeTotal": {
+                  "directInput": {
+                    "isNull": false,
+                    "value": 50
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "advanceInPersonTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "advanceTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "inPersonTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                }
+              },
+              "parties": [
+                {
+                  "id": "RP",
+                  "vote": {
+                    "total": 69,
+                    "mode": {
+                      "electionDayInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "earlyInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeMail": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "provisional": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeTotal": {
+                        "directInput": {
+                          "isNull": false,
+                          "value": 50
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "advanceInPersonTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "advanceTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "inPersonTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      }
+                    },
+                    "ballotOrder": 0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": 15642,
+            "name": {
+              "last": "Jorgensen",
+              "first": "Jo",
+              "middle": "",
+              "suffix": "",
+              "abbrv": "Jorgensn"
+            },
+            "vote": {
+              "total": 1389,
+              "mode": {
+                "electionDayInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "earlyInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeMail": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "provisional": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeTotal": {
+                  "directInput": {
+                    "isNull": false,
+                    "value": 890
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "advanceInPersonTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "advanceTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "inPersonTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                }
+              },
+              "parties": [
+                {
+                  "id": "Lib",
+                  "vote": {
+                    "total": 1389,
+                    "mode": {
+                      "electionDayInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "earlyInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeMail": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "provisional": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeTotal": {
+                        "directInput": {
+                          "isNull": false,
+                          "value": 890
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "advanceInPersonTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "advanceTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "inPersonTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      }
+                    },
+                    "ballotOrder": 0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": 15643,
+            "name": {
+              "last": "Hawkins",
+              "first": "Howie",
+              "middle": "",
+              "suffix": "",
+              "abbrv": "Hawkins"
+            },
+            "vote": {
+              "total": 301,
+              "mode": {
+                "electionDayInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "earlyInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeMail": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "provisional": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeTotal": {
+                  "directInput": {
+                    "isNull": false,
+                    "value": 223
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "advanceInPersonTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "advanceTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "inPersonTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                }
+              },
+              "parties": [
+                {
+                  "id": "Grn",
+                  "vote": {
+                    "total": 301,
+                    "mode": {
+                      "electionDayInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "earlyInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeMail": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "provisional": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeTotal": {
+                        "directInput": {
+                          "isNull": false,
+                          "value": 223
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "advanceInPersonTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "advanceTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "inPersonTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      }
+                    },
+                    "ballotOrder": 0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": 15644,
+            "name": {
+              "last": "La Riva",
+              "first": "Gloria",
+              "middle": "",
+              "suffix": "",
+              "abbrv": "LaRiva"
+            },
+            "vote": {
+              "total": 94,
+              "mode": {
+                "electionDayInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "earlyInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeMail": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "provisional": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeTotal": {
+                  "directInput": {
+                    "isNull": false,
+                    "value": 69
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "advanceInPersonTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "advanceTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "inPersonTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                }
+              },
+              "parties": [
+                {
+                  "id": "PSL",
+                  "vote": {
+                    "total": 94,
+                    "mode": {
+                      "electionDayInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "earlyInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeMail": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "provisional": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeTotal": {
+                        "directInput": {
+                          "isNull": false,
+                          "value": 69
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "advanceInPersonTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "advanceTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "inPersonTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      }
+                    },
+                    "ballotOrder": 0
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "id": 15652,
+            "name": {
+              "last": "Blankenship",
+              "first": "Don",
+              "middle": "",
+              "suffix": "",
+              "abbrv": "Blnknshp"
+            },
+            "vote": {
+              "total": 52,
+              "mode": {
+                "electionDayInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "earlyInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeInPerson": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeMail": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "provisional": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "absenteeTotal": {
+                  "directInput": {
+                    "isNull": false,
+                    "value": 38
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "advanceInPersonTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "advanceTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                },
+                "inPersonTotal": {
+                  "directInput": {
+                    "isNull": true,
+                    "value": 0
+                  },
+                  "rolledUp": {
+                    "isNull": true,
+                    "value": 0
+                  }
+                }
+              },
+              "parties": [
+                {
+                  "id": "CST",
+                  "vote": {
+                    "total": 52,
+                    "mode": {
+                      "electionDayInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "earlyInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeInPerson": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeMail": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "provisional": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "absenteeTotal": {
+                        "directInput": {
+                          "isNull": false,
+                          "value": 38
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "advanceInPersonTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "advanceTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      },
+                      "inPersonTotal": {
+                        "directInput": {
+                          "isNull": true,
+                          "value": 0
+                        },
+                        "rolledUp": {
+                          "isNull": true,
+                          "value": 0
+                        }
+                      }
+                    },
+                    "ballotOrder": 0
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "vote": {
+          "total": 142323,
+          "mode": {
+            "electionDayInPerson": {
+              "directInput": {
+                "isNull": true,
+                "value": 0
+              },
+              "rolledUp": {
+                "isNull": true,
+                "value": 0
+              }
+            },
+            "earlyInPerson": {
+              "directInput": {
+                "isNull": true,
+                "value": 0
+              },
+              "rolledUp": {
+                "isNull": true,
+                "value": 0
+              }
+            },
+            "absenteeInPerson": {
+              "directInput": {
+                "isNull": true,
+                "value": 0
+              },
+              "rolledUp": {
+                "isNull": true,
+                "value": 0
+              }
+            },
+            "absenteeMail": {
+              "directInput": {
+                "isNull": true,
+                "value": 0
+              },
+              "rolledUp": {
+                "isNull": true,
+                "value": 0
+              }
+            },
+            "provisional": {
+              "directInput": {
+                "isNull": true,
+                "value": 0
+              },
+              "rolledUp": {
+                "isNull": true,
+                "value": 0
+              }
+            },
+            "absenteeTotal": {
+              "directInput": {
+                "isNull": false,
+                "value": 114622
+              },
+              "rolledUp": {
+                "isNull": true,
+                "value": 0
+              }
+            },
+            "advanceInPersonTotal": {
+              "directInput": {
+                "isNull": true,
+                "value": 0
+              },
+              "rolledUp": {
+                "isNull": true,
+                "value": 0
+              }
+            },
+            "advanceTotal": {
+              "directInput": {
+                "isNull": true,
+                "value": 0
+              },
+              "rolledUp": {
+                "isNull": true,
+                "value": 0
+              }
+            },
+            "inPersonTotal": {
+              "directInput": {
+                "isNull": true,
+                "value": 0
+              },
+              "rolledUp": {
+                "isNull": true,
+                "value": 0
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

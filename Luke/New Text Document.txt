@@ -1,0 +1,9 @@
+Requirements:
+
+You need to have a program invert to do the index construction. You could use the same program from assignment 1, in which postings are ordered in document ID, or you could modify it a little bit to save the postings in the order of term frequency. Other modifications are also allowed in order to have a more efficient retrieval process.
+
+You need to write a program search for the retrieval process using the vector space model. The cosine similarity formula (with length normalization) should be used. Stop word removal and stemming could be turned on or off for both documents and queries. The input to this program would be a free text query (without Boolean operators), and the output would be a list of relevant documents together with their relevance scores. You may implement one (or more) of the top-K retrieval methods in which K is a predefined value, and in this case, the output will only be a list of K relevant documents with their relevance scores.
+
+You should write a program to implement the user interface (doesn't have to be graphical interface). Users could interactively enter a query, and the program will return all the relevant results. For each result, the ranking order (e.g. 1, 2, 3), the document title and the author names should be displayed. This program basically uses the output from search program.
+
+The final part of the assignment is to evaluate the performance of the IR system you have developed. You need to write a program eval. The input to this program would be query.text and qrels.text from CACM. Your program should go through all the queries in query.text, for each query, get all the relevant results from your system (by running search), compare the results with the actual user judgment from qrels.text, and then calculate the average precision (AP) and R-Precision values. The final output will be the mean average precision (MAP) and the average R-Precision values over all queries.

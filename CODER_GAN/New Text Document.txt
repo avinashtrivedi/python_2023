@@ -1,0 +1,10 @@
+https://paperswithcode.com/paper/progressive-growing-of-gans-for-improved
+
+https://github.com/SiskonEmilia/StyleGAN-PyTorch
+
+https://fabulousjeong.medium.com/tensorflow2-0-pggan-progressive-growing-of-gans-for-improved-quality-stability-and-variation-67a474b39356
+
+
+https://www.kaggle.com/code/heonh0/pggan-progressive-growing-gan-pggan-pytorch
+
+https://paperswithcode.com/dataset/chestx-ray14
